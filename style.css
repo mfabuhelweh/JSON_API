@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-color: #333;
+    background-color: #ef7300;
     color: white;
     text-align: center;
     width: 120px;
@@ -20,7 +20,7 @@ body {
     width: 100%;
     padding: 10px;
     color: white;
-    background-color: #555;
+    background-color: #00a500;
     text-decoration: none;
     text-align: center;
     margin-bottom: 5px;
