@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #afaeae;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 120px;
+    float: left; /* تغيير من flex إلى float left */
+    margin: 15px;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #555;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+   
+}
+
+.content {
+    float: right;
+    width: calc(100% - 170px); /* 120px للheader + 50px للهوامش */
+    margin-left: 20px;
+}
+
+/* Clearfix لمنع مشاكل التدفق */
+body::after {
+    content: "";
+    display: table;
+    clear: both;
+}
